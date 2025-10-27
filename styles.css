@@ -1,0 +1,56 @@
+/* ... (El código CSS de la respuesta anterior, lo he omitido aquí por brevedad, pero úsalo completamente) ... */
+
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor Principal del Login */
+.login-container {
+    background-color: #ffffff; 
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    max-width: 400px; 
+    text-align: center;
+}
+
+/* Logotipo/Título */
+.logo {
+    color: #1877f2; 
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* ... (El resto de estilos para h2, input-group, login-btn, links, message, success y error) ... */
+
+/* Mensaje (Éxito/Error) */
+.message {
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: bold;
+    display: none; 
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    display: block;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    display: block;
+}
